@@ -5,10 +5,10 @@ const fs = require("fs");
 program.version("1.0.0").description("A simple cli program");
 
 //[Plain commander]
-/*program.command("greet <name>").action((name) => console.log(`Hi ${name}`));*/
+program.command("greet <name>").action((name) => console.log(`Hi ${name}`));
 
 //[Commander + Inquirer]
-/* program.command("start").action(async () => {
+program.command("start").action(async () => {
   const prompt = inquirer.createPromptModule();
   const answer = await prompt([
     { name: "username", message: "What is your name?", type: "input" },
@@ -20,7 +20,7 @@ program.version("1.0.0").description("A simple cli program");
     },
   ]);
   console.log(`Hi ${answer.username} you have ${answer.experience} years of experience.`);
-}); */
+});
 
 //[Creating files]
 program.command("create <filename>").action(async (filename) => {
