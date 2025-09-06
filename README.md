@@ -1,7 +1,7 @@
 # Node.js practice #2 - CLI Tool
 
 This repo contains my code from following the Udemy course [Advanced NodeJS: Level up your NodeJS skill In 2025](https://www.udemy.com/course/leveling-up-your-skill-as-a-nodejs-developer).</br>
-It is based on **Section 8**: Building a rapid code generator/assistance CLI tool.<br>
+It is based on **Section 5**: Building a rapid code generator/assistance CLI tool.<br>
 The tool can can clone a boilerplate project from GitHub and quickly scaffold controllers, routers, services, and models from templates.
 
 > [!NOTE]
